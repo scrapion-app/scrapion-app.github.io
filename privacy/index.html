@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scrapion – Politique de confidentialité / Privacy policy</title>
+    <style>
+        :root { color-scheme: light; }
+        body { margin: 0; background: #f7f8fa; color: #1f2937; font: 15px/1.6 -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; }
+        main { max-width: 760px; margin: 0 auto; padding: 40px 20px 64px; }
+        h1 { font-size: 26px; margin: 0 0 4px; }
+        h2 { font-size: 19px; margin: 36px 0 8px; padding-top: 12px; border-top: 1px solid #e5e7eb; }
+        h3 { font-size: 15px; margin: 20px 0 4px; }
+        .meta { color: #6b7280; font-size: 13px; margin: 0 0 24px; }
+        nav a { margin-right: 14px; }
+        ul { padding-left: 20px; }
+        li { margin: 3px 0; }
+        a { color: #4f46e5; }
+        .lang { margin-top: 48px; }
+    </style>
+</head>
+<body>
+<main>
+    <h1>Scrapion</h1>
+    <p class="meta">Dernière mise à jour / Last updated : 27/10/2026</p>
+    <nav><a href="#fr">Français</a><a href="#en">English</a></nav>
+
+    <!-- ============================================================ FRANÇAIS -->
+    <section id="fr" class="lang" lang="fr">
+        <h1>Politique de confidentialité</h1>
+
+        <h2>1. Qui sommes-nous</h2>
+        <p>Scrapion est une extension de navigateur éditée par <strong>Scrapion</strong>
+            (« nous »). Elle fait partie du service de migration DTS, qui transfère les données d'une agence immobilière
+            depuis son ancien logiciel vers son nouveau logiciel immobilier.</p>
+        <p>Contact pour toute question sur vos données : <a href="mailto:o.offsholink@gmail.com">o.offsholink@gmail.com</a>.</p>
+
+        <h2>2. À quoi sert l'extension (finalité unique)</h2>
+        <p>Scrapion a une seule finalité : copier, à la demande d'une agence, les données de cette agence enregistrées dans
+            son ancien logiciel immobilier (le « logiciel source ») afin que DTS les importe dans son nouveau logiciel. L'extension n'est
+            utilisée que par les équipes chargées de la migration, avec l'accord de l'agence.</p>
+
+        <h2>3. Données collectées</h2>
+        <p>L'extension ne collecte rien tant que l'utilisateur ne l'a pas connectée à un serveur DTS et n'a pas lancé une
+            migration. Pendant une migration, elle collecte uniquement :</p>
+        <ul>
+            <li><strong>Le contenu des pages du logiciel source demandées par DTS</strong> (pages HTML, images, PDF) :
+                ce sont les fiches de l'agence — biens, contacts, demandes, historiques, utilisateurs, agences. Elles
+                contiennent des données personnelles des clients et des collaborateurs de l'agence (noms, prénoms,
+                adresses e-mail, téléphones, adresses postales, notes).</li>
+            <li><strong>La session du logiciel source</strong> : les cookies et le stockage local (localStorage) de ce site,
+                y compris les jetons de connexion, pour vérifier que l'utilisateur y est connecté et lire les pages en son nom.
+                L'extension ne lit pas les mots de passe saisis.</li>
+            <li><strong>Des informations techniques sur chaque page</strong> : son adresse, son code de réponse HTTP et son
+                type de contenu.</li>
+            <li><strong>Les paramètres de connexion</strong> saisis par l'utilisateur : l'adresse du serveur DTS et le jeton
+                du scrap.</li>
+        </ul>
+        <p>L'extension ne collecte pas l'historique de navigation, ni le contenu d'autres sites, ni les frappes au clavier,
+            ni la position, et n'utilise aucun outil de statistiques ou de publicité.</p>
+
+        <h2>4. Utilisation des données</h2>
+        <ul>
+            <li>Les pages et la session servent uniquement à extraire les données de l'agence et à les importer dans son nouveau logiciel.</li>
+            <li>Elles ne sont jamais utilisées pour de la publicité, du profilage, de l'évaluation de crédit, ni revendues.</li>
+            <li>Aucune personne ne les lit, sauf l'équipe de migration lorsque c'est nécessaire pour corriger l'import, la
+                sécurité ou une obligation légale.</li>
+        </ul>
+
+        <h2>5. Traitement et stockage</h2>
+        <h3>Dans le navigateur</h3>
+        <p>L'extension garde localement (stockage de l'extension) : les paramètres de connexion, l'état de la migration en
+            cours, un journal des 500 dernières actions et une copie du stockage local du logiciel source. Tout est effacé
+            par le bouton « Déconnexion » ou en désinstallant l'extension.</p>
+        <h3>Sur le serveur DTS</h3>
+        <ul>
+            <li>Les pages et la session sont envoyées <strong>uniquement au serveur DTS saisi par l'utilisateur</strong>,
+                par une connexion chiffrée (HTTPS).</li>
+            <li>Le serveur DTS est exploité par Scrapion et hébergé en France (Union européenne) chez Scaleway.
+                Son accès est réservé à l'équipe de migration et protégé par authentification.</li>
+            <li>Les données sont conservées le temps de la migration, puis supprimées au plus tard <strong>90 jours</strong>
+                après sa fin. Les archives produites pour le logiciel de destination expirent après 72 heures.</li>
+        </ul>
+
+        <h2>6. Partage</h2>
+        <ul>
+            <li>Les données de l'agence sont transmises au <strong>logiciel de destination choisi par l'agence</strong>, pour réaliser
+                l'import demandé par l'agence.</li>
+            <li>Notre hébergeur (Scaleway) les stocke pour notre compte, sans y accéder pour ses propres besoins.</li>
+            <li>Elles ne sont ni vendues, ni louées, ni partagées avec d'autres tiers, sauf obligation légale.</li>
+            <li>Elles ne quittent pas l'Union européenne.</li>
+        </ul>
+
+        <h2>7. Rôles et base légale</h2>
+        <p>L'agence reste responsable du traitement des données de ses clients. Scrapion agit pour son compte, en
+            sous-traitant, dans le cadre du contrat de migration (article 28 du RGPD). Les données de connexion de
+            l'utilisateur de l'extension sont traitées pour exécuter ce contrat.</p>
+
+        <h2>8. Vos droits</h2>
+        <p>Conformément au RGPD, vous pouvez demander l'accès, la rectification, l'effacement ou la limitation de vos données,
+            et vous opposer à leur traitement, en écrivant à <a href="mailto:o.offsholink@gmail.com">o.offsholink@gmail.com</a>. Les clients d'une agence
+            peuvent aussi s'adresser directement à l'agence. Vous pouvez saisir la CNIL (www.cnil.fr).</p>
+
+        <h2>9. Sécurité</h2>
+        <p>Échanges chiffrés (HTTPS), accès au serveur par jeton, accès restreint aux personnes chargées de la migration,
+            suppression des données à la fin de la durée de conservation.</p>
+
+        <h2>10. Utilisation limitée (Chrome Web Store)</h2>
+        <p>L'utilisation des données reçues par l'extension respecte la politique relative aux données utilisateur du
+            Chrome Web Store, y compris les exigences d'utilisation limitée (Limited Use).</p>
+
+        <h2>11. Modifications</h2>
+        <p>Toute modification de cette politique est publiée sur cette page, avec sa date de mise à jour.</p>
+    </section>
+
+    <!-- ============================================================ ENGLISH -->
+    <section id="en" class="lang" lang="en">
+        <h1>Privacy policy</h1>
+
+        <h2>1. Who we are</h2>
+        <p>Scrapion is a browser extension published by <strong>Scrapion</strong> ("we"). It is part of the DTS
+            migration service, which transfers a real-estate agency's data from its previous software to its new
+            real-estate software.</p>
+        <p>Contact for any question about your data: <a href="mailto:o.offsholink@gmail.com">o.offsholink@gmail.com</a>.</p>
+
+        <h2>2. What the extension is for (single purpose)</h2>
+        <p>Scrapion has a single purpose: at an agency's request, copy that agency's own records from its previous real-estate
+            software (the "source software") so that DTS can import them into its new software. It is only used by the teams in charge of
+            the migration, with the agency's consent.</p>
+
+        <h2>3. Data collected</h2>
+        <p>The extension collects nothing until the user connects it to a DTS server and starts a migration. During a
+            migration it only collects:</p>
+        <ul>
+            <li><strong>The content of the source software pages DTS asks for</strong> (HTML pages, images, PDF files): the
+                agency's records — properties, contacts, requests, histories, users, agencies. They contain personal data of
+                the agency's clients and staff (first and last names, email addresses, phone numbers, postal addresses,
+                notes).</li>
+            <li><strong>The source software session</strong>: that site's cookies and local storage (localStorage),
+                including login tokens, to check that the user is logged in and to read the pages on their behalf. The
+                extension does not read typed passwords.</li>
+            <li><strong>Technical information about each page</strong>: its address, HTTP status code and content type.</li>
+            <li><strong>The connection settings</strong> entered by the user: the DTS server address and the scrap token.</li>
+        </ul>
+        <p>The extension does not collect browsing history, the content of other websites, keystrokes or location, and uses
+            no analytics or advertising tools.</p>
+
+        <h2>4. How the data is used</h2>
+        <ul>
+            <li>The pages and the session are only used to extract the agency's data and import it into its new software.</li>
+            <li>They are never used for advertising, profiling or creditworthiness, and never sold.</li>
+            <li>No one reads them, except the migration team when needed to fix the import, for security, or to comply with
+                the law.</li>
+        </ul>
+
+        <h2>5. Handling and storage</h2>
+        <h3>In the browser</h3>
+        <p>The extension keeps locally (extension storage): the connection settings, the state of the current run, a log of
+            the last 500 actions and a copy of the source software's local storage. Everything is erased by the "Log out"
+            button or by uninstalling the extension.</p>
+        <h3>On the DTS server</h3>
+        <ul>
+            <li>The pages and the session are sent <strong>only to the DTS server entered by the user</strong>, over an
+                encrypted connection (HTTPS).</li>
+            <li>The DTS server is operated by Scrapion and hosted in France (European Union) by Scaleway. Access is
+                limited to the migration team and protected by authentication.</li>
+            <li>The data is kept for the duration of the migration and deleted no later than <strong>90 days</strong> after
+                it ends. The archives produced for the destination software expire after 72 hours.</li>
+        </ul>
+
+        <h2>6. Sharing</h2>
+        <ul>
+            <li>The agency's data is sent to <strong>the destination software chosen by the agency</strong>, to perform the import the
+                agency asked for.</li>
+            <li>Our hosting provider (Scaleway) stores it on our behalf and does not access it for its own purposes.</li>
+            <li>It is not sold, rented or shared with any other third party, unless required by law.</li>
+            <li>It does not leave the European Union.</li>
+        </ul>
+
+        <h2>7. Roles and legal basis</h2>
+        <p>The agency remains the controller of its clients' data. Scrapion acts on its behalf as a processor under the
+            migration contract (GDPR article 28). The extension user's connection data is processed to perform that contract.</p>
+
+        <h2>8. Your rights</h2>
+        <p>Under the GDPR you can ask to access, correct, erase or restrict your data, and object to its processing, by
+            writing to <a href="mailto:o.offsholink@gmail.com">o.offsholink@gmail.com</a>. An agency's clients can also contact the agency directly. You can
+            lodge a complaint with your data protection authority (in France, the CNIL – www.cnil.fr).</p>
+
+        <h2>9. Security</h2>
+        <p>Encrypted transfers (HTTPS), token-based access to the server, access limited to the people in charge of the
+            migration, and deletion at the end of the retention period.</p>
+
+        <h2>10. Limited Use (Chrome Web Store)</h2>
+        <p>The use of information received by this extension adheres to the Chrome Web Store User Data Policy, including the
+            Limited Use requirements.</p>
+
+        <h2>11. Changes</h2>
+        <p>Any change to this policy is published on this page, with its update date.</p>
+    </section>
+</main>
+</body>
+</html>
